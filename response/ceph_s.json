@@ -1,0 +1,156 @@
+{
+  "health": {
+    "health": {
+      "health_services": [
+        {
+          "mons": [
+            {
+              "name": "172.18.1.101",
+              "kb_total": 72146520,
+              "kb_used": 40236016,
+              "kb_avail": 31910504,
+              "avail_percent": 44,
+              "last_updated": "2017-03-31 22:10:25.783967",
+              "store_stats": {
+                "bytes_total": 36839997,
+                "bytes_sst": 33825325,
+                "bytes_log": 983040,
+                "bytes_misc": 2031632,
+                "last_updated": "0.000000"
+              },
+              "health": "HEALTH_OK"
+            },
+            {
+              "name": "172.18.1.102",
+              "kb_total": 51175000,
+              "kb_used": 16011688,
+              "kb_avail": 35163312,
+              "avail_percent": 68,
+              "last_updated": "2017-03-31 22:10:14.686676",
+              "store_stats": {
+                "bytes_total": 38093402,
+                "bytes_sst": 34030154,
+                "bytes_log": 983040,
+                "bytes_misc": 3080208,
+                "last_updated": "0.000000"
+              },
+              "health": "HEALTH_OK"
+            },
+            {
+              "name": "172.18.1.103",
+              "kb_total": 51175000,
+              "kb_used": 20691800,
+              "kb_avail": 30483200,
+              "avail_percent": 59,
+              "last_updated": "2017-03-31 22:10:09.713097",
+              "store_stats": {
+                "bytes_total": 37363949,
+                "bytes_sst": 33824989,
+                "bytes_log": 458752,
+                "bytes_misc": 3080208,
+                "last_updated": "0.000000"
+              },
+              "health": "HEALTH_OK"
+            }
+          ]
+        }
+      ]
+    },
+    "timechecks": {
+      "epoch": 764,
+      "round": 1170,
+      "round_status": "finished",
+      "mons": [
+        {
+          "name": "172.18.1.101",
+          "skew": 0,
+          "latency": 0,
+          "health": "HEALTH_OK"
+        },
+        {
+          "name": "172.18.1.102",
+          "skew": -0.026719,
+          "latency": 0.000668,
+          "health": "HEALTH_OK"
+        },
+        {
+          "name": "172.18.1.103",
+          "skew": 0,
+          "latency": 0.000693,
+          "health": "HEALTH_OK"
+        }
+      ]
+    },
+    "summary": [],
+    "overall_status": "HEALTH_OK",
+    "detail": []
+  },
+  "fsid": "429d724f-3487-4dcc-847f-6759b9f943e1",
+  "election_epoch": 764,
+  "quorum": [
+    0,
+    1,
+    2
+  ],
+  "quorum_names": [
+    "172.18.1.101",
+    "172.18.1.102",
+    "172.18.1.103"
+  ],
+  "monmap": {
+    "epoch": 1,
+    "fsid": "429d724f-3487-4dcc-847f-6759b9f943e1",
+    "modified": "2017-03-14 18:13:45.278308",
+    "created": "2017-03-14 18:13:45.278308",
+    "mons": [
+      {
+        "rank": 0,
+        "name": "172.18.1.101",
+        "addr": "172.18.1.101:6789/0"
+      },
+      {
+        "rank": 1,
+        "name": "172.18.1.102",
+        "addr": "172.18.1.102:6789/0"
+      },
+      {
+        "rank": 2,
+        "name": "172.18.1.103",
+        "addr": "172.18.1.103:6789/0"
+      }
+    ]
+  },
+  "osdmap": {
+    "osdmap": {
+      "epoch": 2274,
+      "num_osds": 15,
+      "num_up_osds": 15,
+      "num_in_osds": 15,
+      "full": false,
+      "nearfull": false,
+      "num_remapped_pgs": 0
+    }
+  },
+  "pgmap": {
+    "pgs_by_state": [
+      {
+        "state_name": "active+clean",
+        "count": 776
+      }
+    ],
+    "version": 1050326,
+    "num_pgs": 776,
+    "data_bytes": 709060408005,
+    "bytes_used": 2191733436416,
+    "bytes_avail": 6796656295936,
+    "bytes_total": 8988389732352,
+    "read_bytes_sec": 0,
+    "write_bytes_sec": 7462789,
+    "read_op_per_sec": 45,
+    "write_op_per_sec": 218
+  },
+  "fsmap": {
+    "epoch": 1,
+    "by_rank": []
+  }
+}

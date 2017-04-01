@@ -1,0 +1,86 @@
+{
+  "health": {
+    "health_services": [
+      {
+        "mons": [
+          {
+            "name": "172.18.1.101",
+            "kb_total": 72146520,
+            "kb_used": 40247732,
+            "kb_avail": 31898788,
+            "avail_percent": 44,
+            "last_updated": "2017-03-31 22:23:25.788424",
+            "store_stats": {
+              "bytes_total": 39027744,
+              "bytes_sst": 36013072,
+              "bytes_log": 983040,
+              "bytes_misc": 2031632,
+              "last_updated": "0.000000"
+            },
+            "health": "HEALTH_OK"
+          },
+          {
+            "name": "172.18.1.102",
+            "kb_total": 51175000,
+            "kb_used": 16025600,
+            "kb_avail": 35149400,
+            "avail_percent": 68,
+            "last_updated": "2017-03-31 22:23:14.705565",
+            "store_stats": {
+              "bytes_total": 39289949,
+              "bytes_sst": 36013133,
+              "bytes_log": 196608,
+              "bytes_misc": 3080208,
+              "last_updated": "0.000000"
+            },
+            "health": "HEALTH_OK"
+          },
+          {
+            "name": "172.18.1.103",
+            "kb_total": 51175000,
+            "kb_used": 20704324,
+            "kb_avail": 30470676,
+            "avail_percent": 59,
+            "last_updated": "2017-03-31 22:23:09.723076",
+            "store_stats": {
+              "bytes_total": 43382225,
+              "bytes_sst": 39318977,
+              "bytes_log": 983040,
+              "bytes_misc": 3080208,
+              "last_updated": "0.000000"
+            },
+            "health": "HEALTH_OK"
+          }
+        ]
+      }
+    ]
+  },
+  "timechecks": {
+    "epoch": 764,
+    "round": 1174,
+    "round_status": "finished",
+    "mons": [
+      {
+        "name": "172.18.1.101",
+        "skew": 0,
+        "latency": 0,
+        "health": "HEALTH_OK"
+      },
+      {
+        "name": "172.18.1.102",
+        "skew": -0.025712,
+        "latency": 0.000685,
+        "health": "HEALTH_OK"
+      },
+      {
+        "name": "172.18.1.103",
+        "skew": 0,
+        "latency": 0.000687,
+        "health": "HEALTH_OK"
+      }
+    ]
+  },
+  "summary": [],
+  "overall_status": "HEALTH_OK",
+  "detail": []
+}
